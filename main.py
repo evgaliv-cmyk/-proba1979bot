@@ -40,7 +40,7 @@ TELEGRAM_TOKEN = getenv("TELEGRAM_TOKEN")
 OPENAI_API_KEY = getenv("OPENAI_API_KEY")
 
 # Белый список (замени на реальные ID!)
-ALLOWED_USERS = {986853662, 640886937}
+ALLOWED_USERS = {986853662, 640886937, 401490327}
 
 SYSTEM_PROMPT = """
 Ты - AI-аналитик для менеджеров. Твоя задача - анализировать предоставленный текст и давать структурированный ответ.
